@@ -1,0 +1,63 @@
+﻿body
+{
+    background-color: rosybrown;
+}
+
+.nav-link.hover{
+    background-color:coral;
+    color: darkred;
+}
+
+#firma{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    position: center;
+}
+#foto1{
+    float: right;
+    border: medium;
+    border-left: medium;
+}
+#foto2{
+    float: left;
+    border: medium;
+    border-right: medium;
+}
+#trama{
+    text-justify: distribute;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    border-width:medium;
+    border-left: medium;
+    border-right: medium;
+}
+
+#myForm {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+#openLoginForm {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: center;
+   
+}
+
+
+#logOutButton {
+    background-color: brown;
+    display: none;
+}
